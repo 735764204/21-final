@@ -52,7 +52,7 @@ feature_extractor.trainable = False
 # Attach a classification head
 model = tf.keras.Sequential([
   feature_extractor,
-  layers.Dense(102, activity_regularizer=l1(), activation='softmax')
+  layers.Dense(157, activity_regularizer=l1(), activation='softmax')
 ])
 
 model.compile(
@@ -69,6 +69,6 @@ history = model.fit(
 
 loss, acc = model.evaluate(ds_validation, verbose=2)
 print("Restored model, accuracy: {:5.2f}%".format(100 * acc))
-if acc > 0.89:
+if acc > 0.91:
     model.save('flower_model')
     print('saved')
