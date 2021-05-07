@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Flower-Recognition</string>
+
+    <!-- Drawer & Toolbar Titles -->
+    <string name="sign_in">Sign in/up</string>
+    <string name="history">History</string>
+    <string name="saved">Saved</string>
+    <string name="setting">Settings</string>
+    <string name="helpsAbout">Helps &amp; About</string>
+    <string name="search">Flower-Recognition</string>
+    <string name="encyclopedia">Encyclopedia</string>
+
+    <!-- firebase branch names -->
+    <string name="fb_users">users</string>
+    <string name="fb_history">history</string>
+    <string name="fb_saved">saved</string>
+
+    <!-- Preference Titles -->
+    <string name="configuration_header">App Configuration</string>
+
+    <!-- Preferences -->
+    <string name="open_wiki">Open flower in Wikipedia</string>
+    <string name="open_wiki_key">openWiki</string>
+    <string name="add_history">Store flowers to history:</string>
+    <string name="add_history_key">addHistoryWhen</string>
+    <string name="store_after_search">After searching</string>
+    <string name="store_after_search_key">storeAfterSearch</string>
+    <string name="store_after_wiki">After opening Wikipedia links</string>
+    <string name="store_after_wiki_key">storeAfterWiki</string>
+    <string name="store_wiki_summary">You have to be able to open wiki to enable this function -_-</string>
+    <string name="theme_setting">Theme</string>
+    <string name="theme_setting_key">theme</string>
+    <string name="night_mode_title">Night Mode</string>
+
+    <string name="helps">Helps</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="tutorial_key">tutorial</string>
+    <string name="suggestion_report">Suggestions / Report Bugs</string>
+    <string name="suggest_report_description">Write an email to the developer!</string>
+    <string name="email">sc17y3z@leeds.ac.uk</string>
+    <string name="about">About</string>
+    <string name="about_detail">This app is the final project of Yuyi Zhang, which includes
+        Android development, Convolution Neural Network and user database. Glad to be of service!</string>
+    <string name="track_development">Track Development</string>
+    <string name="github_link">https://github.com/735764204/21-final</string>
+
+    <!-- Buttons -->
+    <string name="camera_button">Take Picture</string>
+    <string name="gallery">Gallery</string>
+    <string name="delete_history">Delete</string>
+    <string name="filter">Filter</string>
+
+    <!-- Fail Page Description -->
+    <string name="fail_no_user">Sign up or login to use this function!</string>
+    <string name="fail_search_text">Sorry, search failed</string>
+    <string name="fail_save_text">Save flowers by tapping that star!</string>
+    <string name="fail_history_text">Come out and search some flowers!</string>
+    <string name="fail_no_database">Error connecting to the database. Sorry!</string>
+
+    <string name="logo">Logo</string>
+    <string name="flower_icon">flower icon</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="pfp_frame">pfp frame</string>
+    <string name="default_description">Lily (members of which are true lilies) is a genus of
+        herbaceous flowering plants growing from bulbs, all with large prominent flowers. Lilies
+        are a group of flowering plants which are important in culture and literature in much of
+        the world. Most species are native to the temperate northern hemisphere, though their range
+        extends into the northern subtropics. Many other plants have "lily" in their common name but
+        are not related to true lilies.</string>
+</resources>

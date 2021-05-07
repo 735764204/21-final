@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "70865465845",
+    "firebase_url": "https://flower-recognition.firebaseio.com",
+    "project_id": "flower-recognition",
+    "storage_bucket": "flower-recognition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70865465845:android:fc4f0dd7444982e25e70bc",
+        "android_client_info": {
+          "package_name": "com.yuyi.flower_recognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70865465845-544jg49hhrr3r3najuugp0jvnfdqtvb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yuyi.flower_recognition",
+            "certificate_hash": "273b55bfe0e4799d31a3854712bdf88e8bbb7593"
+          }
+        },
+        {
+          "client_id": "70865465845-iihfeqeckrud0ikbg1ii3vo520svl2e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yuyi.flower_recognition",
+            "certificate_hash": "bda6f213b448f9bd02477e24b29aba1c300b9787"
+          }
+        },
+        {
+          "client_id": "70865465845-usm8bjek97b8nit35dvlrjh3n1g994le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1NkvyZnDnaPvfOH4jApklk-wEiX26VTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70865465845-usm8bjek97b8nit35dvlrjh3n1g994le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

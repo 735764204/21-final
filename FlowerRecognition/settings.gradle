@@ -1,0 +1,2 @@
+rootProject.name='Flower-Recognition'
+include ':app'
