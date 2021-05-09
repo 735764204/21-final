@@ -71,7 +71,7 @@ elif model_name == "inceptionresnetv2":
 	base_model = InceptionResNetV2(include_top=include_top, weights=weights, input_tensor=Input(shape=(299,299,3)))
 	model = Model(input=base_model.input, output=base_model.get_layer('custom').output)
 	image_size = (299, 299)
-elif model_name == "mobilenet":
+elif model_name == "mobilenetv2":
 	base_model = MobileNet(include_top=include_top, weights=weights, input_tensor=Input(shape=(224,224,3)), input_shape=(224,224,3))
 	model = Model(input=base_model.input, output=base_model.get_layer('custom').output)
 	image_size = (224, 224)
