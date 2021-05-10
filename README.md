@@ -1,7 +1,7 @@
 # 21-final
 
 Requirements
-For model training:
+For model training:\n
 TensorFlow (if the version of TensorFlow is lower than 2.0, extra Keras is also needed)
 NumPy
 scikit-learn
